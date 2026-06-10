@@ -1,0 +1,162 @@
+ERC report (2026-06-10T17:17:26+0530, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[label_dangling]: Label not connected to anything
+    ; error
+    @(1969 mils, 1769 mils): Label 'VIN'
+[duplicate_reference]: Duplicate items #FLG?
+
+    ; error
+    @(1969 mils, 1969 mils): Symbol #FLG0101 [PWR_FLAG]
+    @(1969 mils, 2069 mils): Symbol #FLG0102 [PWR_FLAG]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(1969 mils, 1969 mils): Symbol #FLG0101 Pin 1 [Power output, Line]
+    @(1969 mils, 2069 mils): Symbol #FLG0102 Pin 1 [Power output, Line]
+[unannotated]: Item not annotated: #FLG?
+    ; error
+    @(1969 mils, 1969 mils): Symbol #FLG0101 [PWR_FLAG]
+[duplicate_reference]: Duplicate items U?
+
+    ; error
+    @(3937 mils, 1969 mils): Symbol U? [Conn_01x03_Pin]
+    @(3937 mils, 2756 mils): Symbol U? [Conn_01x03_Pin]
+[label_dangling]: Label not connected to anything
+    ; error
+    @(4137 mils, 1969 mils): Label 'VOUT_12V_1'
+[duplicate_reference]: Duplicate items U?
+
+    ; error
+    @(3937 mils, 2756 mils): Symbol U? [Conn_01x03_Pin]
+    @(6299 mils, 1969 mils): Symbol U? [Conn_01x03_Pin]
+[label_dangling]: Label not connected to anything
+    ; error
+    @(4137 mils, 2756 mils): Label 'VOUT_12V_2'
+[duplicate_reference]: Duplicate items U?
+
+    ; error
+    @(5118 mils, 1969 mils): Symbol U? [Conn_01x03_Pin]
+    @(5118 mils, 2756 mils): Symbol U? [Conn_01x03_Pin]
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5318 mils, 1969 mils): Label 'VOUT_9V_1'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(5318 mils, 2756 mils): Label 'VOUT_9V_2'
+[duplicate_reference]: Duplicate items U?
+
+    ; error
+    @(6299 mils, 1969 mils): Symbol U? [Conn_01x03_Pin]
+    @(6299 mils, 2756 mils): Symbol U? [Conn_01x03_Pin]
+[label_dangling]: Label not connected to anything
+    ; error
+    @(6499 mils, 1969 mils): Label 'VOUT_5V_1'
+[duplicate_reference]: Duplicate items U?
+
+    ; error
+    @(6299 mils, 2756 mils): Symbol U? [Conn_01x03_Pin]
+    @(6299 mils, 3543 mils): Symbol U? [Conn_01x03_Pin]
+[label_dangling]: Label not connected to anything
+    ; error
+    @(6499 mils, 2756 mils): Label 'VOUT_5V_2'
+[duplicate_reference]: Duplicate items U?
+
+    ; error
+    @(6299 mils, 3543 mils): Symbol U? [Conn_01x03_Pin]
+    @(5118 mils, 1969 mils): Symbol U? [Conn_01x03_Pin]
+[label_dangling]: Label not connected to anything
+    ; error
+    @(6499 mils, 3543 mils): Label 'VOUT_5V_3'
+[multiple_net_names]: Both GND and VIN are attached to the same items; GND will be used in the netlist
+    ; warning
+    @(1969 mils, 2169 mils): Label 'GND'
+    @(1969 mils, 1769 mils): Label 'VIN'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1969 mils, 1969 mils): Symbol #FLG0101 Pin 1 [Power output, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1969 mils, 1969 mils): Horizontal Wire, length 200 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1969 mils, 2069 mils): Symbol #FLG0102 Pin 1 [Power output, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1969 mils, 2069 mils): Horizontal Wire, length 200 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2169 mils, 1969 mils): Wire, length 1971 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2169 mils, 1969 mils): Symbol BT? Pin 1 [Pin_1, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2169 mils, 2069 mils): Horizontal Wire, length 1969 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4137 mils, 1869 mils): Vertical Wire, length 200 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4137 mils, 1869 mils): Symbol U? Pin 1 [Pin_1, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4137 mils, 1869 mils): Horizontal Wire, length 1181 mils
+[label_multiple_wires]: Label connects more than one wire at 1050800, 500000
+    ; warning
+    @(4137 mils, 1969 mils): Label 'VOUT_12V_1'
+    @(4137 mils, 1869 mils): Vertical Wire, length 200 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4137 mils, 2069 mils): Horizontal Wire, length 1181 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4137 mils, 2069 mils): Vertical Wire, length 787 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4137 mils, 2656 mils): Symbol U? Pin 1 [Pin_1, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5318 mils, 1869 mils): Symbol U? Pin 1 [Pin_1, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5318 mils, 1869 mils): Horizontal Wire, length 1181 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5318 mils, 1869 mils): Vertical Wire, length 200 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5318 mils, 2069 mils): Horizontal Wire, length 1181 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5318 mils, 2069 mils): Vertical Wire, length 787 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5318 mils, 2656 mils): Symbol U? Pin 1 [Pin_1, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6499 mils, 1869 mils): Symbol U? Pin 1 [Pin_1, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6499 mils, 1869 mils): Vertical Wire, length 200 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6499 mils, 2069 mils): Vertical Wire, length 587 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6499 mils, 2656 mils): Vertical Wire, length 200 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6499 mils, 2656 mils): Symbol U? Pin 1 [Pin_1, Passive, Line]
+[label_multiple_wires]: Label connects more than one wire at 1650800, 700000
+    ; warning
+    @(6499 mils, 2756 mils): Label 'VOUT_5V_2'
+    @(6499 mils, 2656 mils): Vertical Wire, length 200 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6499 mils, 2856 mils): Vertical Wire, length 787 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6499 mils, 3443 mils): Symbol U? Pin 1 [Pin_1, Passive, Line]
+
+ ** ERC messages: 46  Errors 17  Warnings 29
